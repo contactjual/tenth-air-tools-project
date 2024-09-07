@@ -1,0 +1,105 @@
+/* tablet view  */
+@media screen and (max-width: 1400px) {
+
+    /* header */
+    header .navigiation nav {
+        flex-direction: column;
+        padding: 10px 0 120px 0;
+    }
+
+    header .banner .overlay .text {
+        height: 150px;
+        text-align: center;
+    }
+
+    /* cards  */
+    main .cards .first-group .card-flex {
+        grid-template-columns: auto auto;
+    }
+
+    main .cards .second-group .card-flex {
+        grid-template-columns: auto auto;
+    }
+
+    /* sign up  */
+    main .sign-up input {
+        width: 500px;
+    }
+
+
+    /* mobile view  */
+    @media screen and (max-width: 750px) {
+        /* header */
+        header .navigiation nav ul {
+            display: grid;
+            grid-template-columns: auto auto;
+            text-align: center;
+        }
+
+        header .navigiation nav {
+            padding: 10px 0 220px 0;
+        }
+
+        header .banner .overlay .text {
+            height: 200px;
+        }
+
+        header .banner {
+            height: 50vh;
+        }
+
+        header .banner .overlay {
+            height: 50vh;
+        }
+        header .banner .overlay .text h1 {
+            font-size: 40px;
+        }
+
+
+
+        /* cards  */
+        main .cards .first-group .card-flex {
+            grid-template-columns: auto;
+        }
+
+        main .cards .first-group .card img {
+            width: 280px;
+        }
+
+        main .cards .second-group .card-flex {
+            grid-template-columns: auto;
+        }
+
+
+
+        /* sign up  */
+        main .sign-up {
+            /* width: 300px; */
+            text-align: center;
+        }
+        main .sign-up h1 {
+            font-size: 35px;
+        }
+        main .sign-up p {
+            font-size: 20px;
+        }
+
+        main .sign-up input {
+            width: 250px;
+        }
+
+
+
+        /* footer  */
+        footer .footer {
+            flex-direction: column;
+            text-align: center;
+            gap: 30px;
+            padding: 50px 0;
+        }
+        footer small {
+            width: 300px;
+            text-align: center;
+        }
+    }
+}

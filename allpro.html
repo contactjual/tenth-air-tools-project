@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <style>
+        main .allpro>h1 {
+            text-align: center;
+            margin: 50px;
+            font-size: 60px;
+        }
+
+        main .allpro .card>a,
+        main .allpro .card>span {
+            display: block;
+            margin: 10px 0;
+        }
+
+        main .allpro .cards {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: center;
+            gap: 30px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        main .allpro .cards .card img {
+            width: 250px;
+            margin: 10px auto;
+            display: block;
+            transition: .3s;
+        }
+
+        main .allpro .cards .card>a:hover img {
+            transform: scale(1.05);
+        }
+
+        main .allpro .cards .card {
+            border: 1px solid #44444413;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        main .allpro .cards .card:hover {
+            box-shadow: 2px 2px 10px #44444444;
+        }
+
+
+        @media screen and (max-width: 1200px) {
+            main .allpro .cards {
+                grid-template-columns: auto auto;
+            }
+        }
+
+        @media screen and (max-width: 750px) {
+            main .allpro .cards {
+                grid-template-columns: auto;
+            }
+            main .allpro>h1 {
+                font-size: 40px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="shadow">
+            <div class="container">
+                <div class="navigiation">
+                    <nav>
+                        <div class="img">
+                            <a href="index.html"><img src="https://air-tools-coderloft.web.app/assets/logo-1f408385.png"
+                                    alt=""></a>
+                        </div>
+                        <ul>
+                            <li class="button"><a href="index.html">Home</a></li>
+                            <li class="button"><a href="addpro.html">Add Products</a></li>
+                            <li class="button"><a href="allpro.html">All Products</a></li>
+                            <li class="button"><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                        <div class="right-side">
+                            <div class="buy">
+                                <a href="buy.html">
+                                    <i class="fa-solid fa-cart-shopping"></i><sup>0</sup><span>$00</span>
+                                </a>
+                            </div>
+                            <div class="button">
+                                <a href="login.html">LOG IN</a>
+                            </div>
+                            <div class="theme">
+                                <a href="theme.html"><i class="fa-solid fa-moon"></i></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="allpro">
+                <h1>All product</h1>
+                <div class="cards">
+                    <div class="card">
+                        <a href="viewde1.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/12/34-DOT-JU13T_1.jpg"
+                                alt=""></a>
+                        <a href="viewde1.html">FACOM 34.JU13T – 34 – METRIC AND INCH “MIDGET” OPEN-END WRENCH SETS IN
+                            ROLLS</a>
+                        <span><b>Price</b> $122</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="viewde1.html">View details</a>
+                            <a href="upd1.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde2.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/12/440-DOT-1-FS-2_1.webp"
+                                alt=""></a>
+                        <a href="viewde2.html">FACOM 440 – INCH COMBINATION WRENCHES</a>
+                        <span><b>Price</b>$48</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde2.html">View details</a>
+                            <a href="upd2.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde3.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/12/55A-DOT-JU10_1.jpg"
+                                alt=""></a>
+                        <a href="viewde3.html">FACOM 55A.JU10 – 55A – INCH OFFSET-RING WRENCH SETS</a>
+                        <span><b>Price</b>$140</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde3.html">View details</a>
+                            <a href="upd3.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde4.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/12/75-DOT-JU10_1.jpg"
+                                alt=""></a>
+                        <a href="viewde4.html">FACOM 75.JU10 – 75 – INCH ANGLED SOCKET WRENCH SETS</a>
+                        <span><b>Price </b>$169</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde4.html">View details</a>
+                            <a href="upd4.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde5.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/12/CPE-DOT-A2_1.webp"
+                                alt=""></a>
+                        <a href="viewde5.html">FACOM CPE.A2 – STD 4 PIECE PLIERS SET.</a>
+                        <span><b>Price </b>$119</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde5.html">View details</a>
+                            <a href="upd5.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde6.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/12/MOD-DOT-55-3_1.jpg"
+                                alt=""></a>
+                        <a href="viewde6.html">FACOM MOD.55-3 – MOD.55 – METRIC AND INCH OFFSET-RING</a>
+                        <span><b>Price</b>$83</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde6.html">View details</a>
+                            <a href="upd6.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde7.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/06/CHICAGO-PNEUMATIC-CP4210AL-RIVET-SQUEEZER-1.jpg"
+                                alt=""></a>
+                        <a href="viewde7.html">CHICAGO PNEUMATIC CP4210AL RIVET SQUEEZER</a>
+                        <span><b>Price </b>$2017 </span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde7.html">View details</a>
+                            <a href="upd7.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde8.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/03/CHICAGO-PNEUMATIC-CP4210AS-RIVET-SQUEEZER.jpg"
+                                alt=""></a>
+                        <a href="viewde8.html">CHICAGO PNEUMATIC CP4210AS RIVET SQUEEZER</a>
+                        <span><b>Price </b>$1765</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde8.html">View details</a>
+                            <a href="upd8.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde9.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/03/CHICAGO-PNEUMATIC-CP4283-0.401-RIVET-GUN-3X-2.jpg"
+                                alt=""></a>
+                        <a href="viewde9.html">CHICAGO PNEUMATIC CP4282 0.401″ RIVET GUN 2X</a>
+                        <span><b>Price </b> $655</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde9.html">View details</a>
+                            <a href="upd9.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde10.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/03/CP1014P24-CHICAGO-PNEUMATIC-1-4-PISTOL-GRIP-AIR-DRILL-2400-RPM.jpg"
+                                alt=""></a>
+                        <a href="viewde10.html">CP1014P24 CHICAGO PNEUMATIC 1/4″ PISTOL GRIP AIR DRILL 2400 RPM</a>
+                        <span><b>Price </b> $422</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde10.html">View details</a>
+                            <a href="upd10.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde11.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/03/CP3000-415R-CHICAGO-PNEUMATIC-1-4-STRAIGHT-DIE-GRINDER-15000-RPM.jpg"
+                                alt=""></a>
+                        <a href="viewde11.html">CP3000-415R CHICAGO PNEUMATIC 1/4 STRAIGHT DIE GRINDER 15000 RPM</a>
+                        <span><b>Price </b>$436</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde11.html">View details</a>
+                            <a href="upd11.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde12.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/03/CETA-FORM-10-Water-Pump-Swan-Neck-Cannon-Pliers-600x375.jpg"
+                                alt=""></a>
+                        <a href="viewde12.html">CETA FORM – 10″ Water Pump / Swan Neck / Cannon Pliers</a>
+                        <span><b>Price </b>$21</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde12.html">View details</a>
+                            <a href="upd12.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde13.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/03/ceta2.png"
+                                alt=""></a>
+                        <a href="viewde13.html">CETA FORM – 6 Piece C-PLUS Screwdriver Set</a>
+                        <span><b>Price </b> $23</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde13.html">View details</a>
+                            <a href="upd13.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde14.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/03/CETA-FORM-10-Piece-1-4-Drive-12-Point-Deep-Socket-Set-SAE-600x375.jpg"
+                                alt=""></a>
+                        <a href="viewde14.html">CETA FORM 10 Piece 1/4 Drive 12-Point Deep Socket Set – SAE</a>
+                        <span><b>Price </b> $399</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde14.html">View details</a>
+                            <a href="upd14.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde15.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/03/ceta5-600x648.jpg"
+                                alt=""></a>
+                        <a href="viewde15.html">CETA FORM 1/4 DRIVE RATCHET / SOCKET / EXTENSIONS / UJ SET</a>
+                        <span><b>Price </b>$115</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde15.html">View details</a>
+                            <a href="upd15.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde16.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/03/CETA-FORM-Flat-Nose-Duckbill-6-Pliers-600x375.jpg"
+                                alt=""></a>
+                        <a href="viewde16.html">CETA FORM – Flat Nose / Duckbill 6″ Pliers</a>
+                        <span><b>Price </b>$17</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde16.html">View details</a>
+                            <a href="upd16.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde17.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2022/02/Screenshot-at-Feb-15-10-22-51-600x502.png"
+                                alt=""></a>
+                        <a href="viewde17.html">Stahlwille 1/2″ Drive Bit holder No. 412/442/443/543</a>
+                        <span><b>Price </b> $25</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde17.html">View details</a>
+                            <a href="upd17.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde18.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2022/02/Screenshot-at-Feb-22-11-43-13.png"
+                                alt=""></a>
+                        <a href="viewde18.html">Stahlwille 1/2″ VDE extensions No. 12177 VDE</a>
+                        <span><b>Price </b> $32</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde18.html">View details</a>
+                            <a href="upd18.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde19.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2022/02/Screenshot-at-Feb-13-15-54-19.png"
+                                alt=""></a>
+                        <a href="viewde19.html">Stahlwille 11030010 – 1/4 Magnification piece No. 409M</a>
+                        <span><b>Price </b> $12</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde19.html">View details</a>
+                            <a href="upd19.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde20.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2022/02/407_11020000_14.png"
+                                alt=""></a>
+                        <a href="viewde20.html">Stahlwille 11020000 – 1/4 Universal joint No. 407</a>
+                        <span><b>Price </b>$22</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde20.html">View details</a>
+                            <a href="upd20.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde21.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2022/03/402_17-600x378.png"
+                                alt=""></a>
+                        <a href="viewde21.html">Stahlwille 1/4 Joint socket wrench inserts No. 402a INCH 12pt</a>
+                        <span><b>Price </b> $32</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde21.html">View details</a>
+                            <a href="upd21.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde22.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/12/MODM-DOT-MI5_1.webp"
+                                alt=""></a>
+                        <a href="viewde22.html">FACOM MODM.MI5 – IMPACT TOOLS 205C LONG SHEATHED DRIFT PUNCHES FOAM
+                            MODULE</a>
+                        <span><b>Price </b> $107</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde22.html">View details</a>
+                            <a href="upd22.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde23.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2019/09/ENGINEERS-BALL-PEIN-HAMMER-FIBRE-GLASS-HANDLE.jpg"
+                                alt=""></a>
+                        <a href="viewde23.html">ENGINEERS BALL PEIN HAMMER FIBRE GLASS HANDLER4353563454</a>
+                        <span><b>Price </b>$11</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde23.html">View details</a>
+                            <a href="upd23.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde24.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/12/E150801_1.webp"
+                                alt=""></a>
+                        <a href="viewde24.html">FACOM EXPERT HAMMER, PUNCH AND CHISEL SET</a>
+                        <span><b>Price</b>$72</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde24.html">View details</a>
+                            <a href="upd24.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde25.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/06/pic_ps_2016303-2-2-600x600.jpg"
+                                alt=""></a>
+                        <a href="viewde25.html">Gedore 2016303 (Series 2005 CT4-8000) Tool set in 4/4 CT tool module, 13
+                            pcs</a>
+                        <span><b>Price </b>$432</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde25.html">View details</a>
+                            <a href="upd25.html">Update</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="viewde26.html"><img
+                                src="https://aircraftengineersstore.com/wp-content/uploads/2021/06/pic_ps_2835932-2-2-600x600.jpg"
+                                alt=""></a>
+                        <a href="viewde26.html">Gedore 2835932 (Series 1100 CT1-350) Chisel set, in 1/2 L-BOXX 136
+                            Module</a>
+                        <span><b>Price </b>$62</span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="button">
+                            <a href="veiwde26.html">View details</a>
+                            <a href="upd26.html">Update</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="logo-area">
+                    <img src="https://air-tools-coderloft.web.app/assets/footer_logo-2305eadc.png" alt="">
+                    <ul>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-github"></i></li>
+                        <li><i class="fa-solid fa-basketball"></i></li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <h3>INFORMATION</h3>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="quck">
+                    <h3>QUCK LINKS</h3>
+                    <ul>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">My account</a></li>
+                        <li><a href="">My cart</a></li>
+                        <li><a href="">Wishlist</a></li>
+                    </ul>
+                </div>
+                <div class="legal">
+                    <h3>LEGAL</h3>
+                    <ul>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <small>© 2023 Air Tools | All Rights Reserved</small>
+        </div>
+    </footer>
+</body>
+
+</html>
