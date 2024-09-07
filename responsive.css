@@ -13,13 +13,13 @@
     }
 
     /* cards  */
-    main .cards .first-group .card-flex {
+    /* main .cards .first-group .card-flex {
         grid-template-columns: auto auto;
     }
 
     main .cards .second-group .card-flex {
         grid-template-columns: auto auto;
-    }
+    } */
 
     /* sign up  */
     main .sign-up input {
