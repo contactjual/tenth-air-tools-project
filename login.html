@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Products</title>
+    <title>Login</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -17,39 +17,59 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
 
-
     <style>
-        main .buy {
-            width: 90%;
-            margin: 0 auto;
+        main .sign {
+            margin: 100px auto;
+            width: 500px;
         }
-        main .buy>h1, main .buy .button {
-            text-align: center;
-            margin: 50px 0;
+
+        main .sign>p {
+            margin: 0 0 50px 0;
         }
-        main .buy .brand {
-            display: flex;
-            justify-content: space-between;
-            border: 1px solid #44444430;
-            padding: 20px;
+
+        main label {
+            display: block;
             font-weight: 600;
         }
-        main .buy .brand p:nth-of-type(1) {
-            flex-grow: .5;
-        }
-        main .buy .brand p:nth-of-type(2) {
-            flex-grow: 1.5;
-        }
-        main .buy .brand p:nth-of-type(3) {
-            flex-grow: 2;
-        }
-        main .buy .brand p:nth-of-type(4) {
-            flex-grow: .5;
-        }
-        main .buy .brand p:nth-of-type(5) {
-            flex-grow: 0;
+
+        main input {
+            padding: 15px;
+            width: 100%;
+            border: 1px solid #4444442f;
+            border-radius: 10px;
+            margin: 20px 0;
         }
 
+        main .sign-in {
+            width: 100%;
+            padding: 12px;
+            border-radius: 10px;
+            background-color: #c73a30;
+            text-align: center;
+        }
+
+        main #google a {
+            background-color: white;
+            color: #c73a30;
+            border: 3px solid #c73a30;
+        }
+
+        main form p {
+            text-align: center;
+            margin: 30px;
+        }
+
+        main #google {
+            text-align: center;
+        }
+
+
+
+        @media screen and (max-width: 700px) {
+            main .sign {
+                width: 300px;
+            }
+        }
     </style>
 
 </head>
@@ -90,19 +110,27 @@
     </header>
     <main>
         <div class="container">
-            <div class="buy">
-                <h1>Total Cart Item</h1>
-                <div class="brand">
-                    <p>Image</p>
-                    <p>Product name</p>
-                    <p>Brand</p>
-                    <p>Price</p>
-                    <p>Remove</p>
-                </div>
-                <h1>Your cart is empty</h1>
-                <div class="button">
-                    <a href="allpro.html">Continue Shopping</a>
-                </div>
+            <div class="sign">
+                <h1>Sign In</h1>
+                <p>Enter your credentials to log in.</p>
+                <form action="">
+                    <div class="mail">
+                        <label for="mail">Your Email</label>
+                        <input type="email" placeholder="name@mail.com">
+                    </div>
+                    <div class="pass">
+                        <label for="pass">Password</label>
+                        <input type="password" placeholder="********">
+                    </div>
+                    <div class="button sign-in">
+                        <a href="">Sign In</a>
+                    </div>
+                    <p>Not have an account? <a href="signup.html">Sign Up</a></p>
+                    <div class="button" id="google">
+                        <a href=""><i class="fa-brands fa-google" style="color: #c73a30; margin-right: 5px;"></i>Login
+                            with Google</a>
+                    </div>
+                </form>
             </div>
         </div>
     </main>
