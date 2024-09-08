@@ -19,7 +19,9 @@
     font-family: Poppins,sans-serif;
 }
 a, li, input, label, span, i, p {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1rem;
+    line-height: 1.5 rem;
     color: black;
 }
 h1 {
