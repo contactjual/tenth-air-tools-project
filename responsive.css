@@ -98,7 +98,7 @@
             padding: 50px 0;
         }
         footer small {
-            width: 300px;
+            /* width: 300px; */
             text-align: center;
         }
     }

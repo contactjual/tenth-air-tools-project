@@ -157,6 +157,7 @@ main .cards .first-group .card-flex {
 main .cards .first-group .card img {
     max-width: 100%;
     width: 400px;
+    /* height: 200px; */
 }
 main .cards .first-group .card {
     box-shadow: 2px 2px 10px #4444444c;
