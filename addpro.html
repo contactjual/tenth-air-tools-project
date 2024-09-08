@@ -75,7 +75,9 @@
         main .addpro form .field {
             position: relative;
         }
-        main .addpro form .brand-name label, main .addpro form .ratting label {
+
+        main .addpro form .brand-name label,
+        main .addpro form .ratting label {
             position: absolute;
             top: -11px;
             left: 20px;
@@ -92,8 +94,10 @@
             /* padding: 0 3px; */
             font-size: 20px;
         }
-        input:focus ~ label,
-        textarea:focus ~ label {
+
+        /* problem area  */
+        input:focus~label,
+        textarea:focus~label {
             top: -12px;
             left: 20px;
             background-color: white;
@@ -101,6 +105,16 @@
             font-size: 16px;
         }
 
+
+        @media screen and (max-width: 500px) {
+            main .addpro form .input-field {
+                display: flex;
+                flex-direction: column;
+            }
+            main .addpro h1 {
+                font-size: 35px;
+            }
+        }
     </style>
 
 

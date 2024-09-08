@@ -4,7 +4,7 @@
     /* header */
     header .navigiation nav {
         flex-direction: column;
-        padding: 10px 0 120px 0;
+        padding: 10px 0 300px 0;
     }
 
     header .banner .overlay .text {
@@ -37,7 +37,7 @@
         }
 
         header .navigiation nav {
-            padding: 10px 0 220px 0;
+            padding: 10px 0 350px 0;
         }
 
         header .banner .overlay .text {
