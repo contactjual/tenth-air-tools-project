@@ -137,6 +137,9 @@ header .banner .overlay .text h1 {
 
 
 /* card-area */
+main .cards i {
+    color: goldenrod;
+}
 main .cards .first-group h1 {
     text-align: center;
     margin: 140px 0 50px;

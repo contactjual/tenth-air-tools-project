@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Products</title>
+    <title>Update Products</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -16,6 +16,87 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+
+
+    <style>
+        main .addpro {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        main .addpro h1 {
+            font-size: 60px;
+            font-weight: 400;
+            margin: 100px 0 50px 0;
+            text-align: center;
+        }
+
+        main .addpro form input,
+        main .addpro form select,
+        main .addpro form textarea {
+            width: 100%;
+            height: 50px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: 2px solid #44444458;
+            padding: 10px 20px;
+
+            /* position: relative; */
+        }
+
+        main .addpro form .input-field {
+            display: grid;
+            grid-template-columns: auto;
+            gap: 30px;
+        }
+
+        main .addpro form .input-field div:first-child {
+            grid-column: 1/3;
+        }
+
+        main .addpro form .input-field div:nth-of-type(6) {
+            grid-column: 1/3;
+        }
+
+        main .addpro form .input-field div:nth-of-type(7) {
+            grid-column: 1/3;
+        }
+
+        main .addpro form textarea {
+            height: 300px;
+        }
+
+        main .addpro form span {
+            color: #c73a30;
+        }
+
+
+
+        main .addpro form .field {
+            position: relative;
+        }
+
+        main .addpro form label {
+            position: absolute;
+            top: -13px;
+            left: 20px;
+            background-color: white;
+            padding: 0 3px;
+            font-size: 15px;
+        }
+
+
+        @media screen and (max-width: 500px) {
+            main .addpro form .input-field {
+                display: flex;
+                flex-direction: column;
+            }
+            main .addpro h1 {
+                font-size: 35px;
+            }
+        }
+    </style>
+
 
 </head>
 
@@ -56,10 +137,54 @@
     <main>
         <div class="container">
             <div class="addpro">
-                <h1>Add product</h1>
-                <form action="">
-
-                </form>
+                <h1>Update product</h1>
+                <div class="form-area">
+                    <form action="">
+                        <div class="input-field">
+                            <div class="pro-name field">
+                                <label for="">Product name <span>*</span></label>
+                                <input type="text" value="FACOM 440 – INCH COMBINATION WRENCHES">
+                            </div>
+                            <div class="brand-name field">
+                                <label for="">Brand Name</label>
+                                <select name="" id="">
+                                    <option value="Focom Tools">Focom Tools</option>
+                                    <option value="Chicago Pneumatic">Chicago Pneumatic</option>
+                                    <option value="Macnaught">Macnaught</option>
+                                </select>
+                            </div>
+                            <div class="pro-type field">
+                                <label class="type" for="">Product type <span>*</span></label>
+                                <input type="text" value="COMBINATION SPANNERS">
+                            </div>
+                            <div class="price field">
+                                <label for="">Price <span>*</span></label>
+                                <input type="text" value="48">
+                            </div>
+                            <div class="ratting field">
+                                <label for="">Ratting</label>
+                                <select name="" id="">
+                                    <option value="1 Star">1 Star</option>
+                                    <option value="2 Star">1 Star</option>
+                                    <option value="3 Star">3 Star</option>
+                                    <option value="4 Star">4 Star</option>
+                                    <option value="5 Star">5 Star</option>
+                                </select>
+                            </div>
+                            <div class="url field">
+                                <label for="">Product image URL <span>*</span></label>
+                                <input type="text" value="https://aircraftengineersstore.com/wp-content/uploads/2021/12/440-DOT-1-FS-2_1.webp">
+                            </div>
+                            <div class="sms field">
+                                <label for="">Short description</label>
+                                <textarea name="" id="">STANDARDS: ASME B107.100, SAE AS954G Standard wrench for all common applications. High mechanical performance combined with compact design complying with aeronautical standards. Ring head: – Ring clearance (E dimension) designed for better access to serial-mounted or embedded screws. – OGV® profile 12-point ring for powerful tightening while protecting the nut. Suffix H = 6 sided ring. – Ring head with 15° angle. Open end head: – Open end with 15° angle. – Open end head-handle geometry optimized for increased accessibility. Inch dimensions from 1/4″ to 1″1/2. Satin chrome finish.</textarea>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="">Add product</a>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
