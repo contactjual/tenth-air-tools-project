@@ -12,14 +12,7 @@
         text-align: center;
     }
 
-    /* cards  */
-    main .cards .first-group .card-flex {
-        grid-template-columns: auto auto;
-    }
 
-    main .cards .second-group .card-flex {
-        grid-template-columns: auto auto;
-    }
 
     /* sign up  */
     main .sign-up input {
@@ -57,18 +50,7 @@
 
 
 
-        /* cards  */
-        main .cards .first-group .card-flex {
-            grid-template-columns: auto;
-        }
 
-        main .cards .first-group .card img {
-            width: 280px;
-        }
-
-        main .cards .second-group .card-flex {
-            grid-template-columns: auto;
-        }
 
 
 

@@ -182,8 +182,9 @@ main .cards .first-group h1 {
 }
 
 main .cards .first-group .card-flex {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: auto auto auto; */
     justify-content: center;
     gap: 30px;
     width: 95%;
@@ -193,7 +194,6 @@ main .cards .first-group .card-flex {
 main .cards .first-group .card img {
     max-width: 100%;
     width: 400px;
-    /* height: 200px; */
 }
 
 main .cards .first-group .card {
@@ -215,8 +215,9 @@ main .cards .second-group h1 {
 }
 
 main .cards .second-group .card-flex {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: auto auto auto auto; */
     justify-content: center;
     gap: 30px;
     width: 95%;
@@ -225,11 +226,10 @@ main .cards .second-group .card-flex {
 
 main .cards .second-group .card img {
     max-width: 100%;
-    width: 290px;
+    width: 250px;
 }
 
 main .cards .second-group .card {
-    /* width: 290px; */
     text-align: center;
     padding: 10px;
     box-shadow: 2px 2px 10px #44444413;
